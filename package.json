@@ -4,7 +4,7 @@
   "description": "**Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/cucumber-js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414#readme",
   "dependencies": {
+    "cucumber": "^2.0.0-rc.9",
     "express": "^4.15.2",
     "handlebars": "^4.0.6"
   },
   "devDependencies": {
-    "chromedriver": "^2.25.1",
+    "chromedriver": "^2.29.0",
     "cucumber": "^2.0.0-rc.9",
-    "selenium-webdriver": "^3.0.1"
+    "selenium-webdriver": "^3.4.0"
   }
 }
