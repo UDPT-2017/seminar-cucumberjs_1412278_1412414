@@ -5,7 +5,7 @@ var {defineSupportCode} = require('cucumber');
 defineSupportCode(function({Given, When, Then, setDefaultTimeout}) {
   setDefaultTimeout(6000000);
   Given('I am on the home page', function() {
-    return this.driver.get('https://localhost:3000');
+    return this.driver.get('https://www.w3schools.com/');
   });
 
   When('I click on {stringInDoubleQuotes}', function (text) {
@@ -15,7 +15,7 @@ defineSupportCode(function({Given, When, Then, setDefaultTimeout}) {
   });
 
   Then('I should see Album page', function () {
-    return this.driver.get('https://localhost:3000/Album');
+    return this.driver.get('https://www.w3schools.com/html/default.asp');
 
   });
 });
