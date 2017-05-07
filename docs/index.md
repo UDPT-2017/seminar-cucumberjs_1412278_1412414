@@ -12,3 +12,12 @@
       + Thường xuyên giao các phần mềm chạy được cho khách hàng để khách hàng đánh giá.
       + Thường xuyên kiểm tra xuyên suốt dự án.
       + Sự hợp tác giữa các thành viên trong quá trình phát triển dự án là cần thiết.
+# II.	Test Driven Development (TDD):
+  - TDD là một phương pháp phát triển phần mềm dựa trên phương pháp agile	tập trung vào việc kiểm thử phần mềm vì vậy mà các phần mềm được áp dụng phương pháp này thường ít có lỗi.
+  -	Lập trình viên sử dụng phương pháp này sẽ thực hiện theo từng bước nhỏ:
+	 + Viết test cho 1 hàm nhưng đảm bảo cho nó thất bại.
+   + Sau đó thì viết code để có thể pass test.
+	 + Sau đó thì tối ưu hóa code.
+	 + Lặp lại bước đầu tiên.
+  - Mô hình TDD:
+    ![mota](../hinh1.png 'mô hình TDD')
