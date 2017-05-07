@@ -27,10 +27,6 @@ defineSupportCode(function({Given, When, Then, setDefaultTimeout}) {
     }
   });
 
-
-
-
-
   Given('I am on the www.w3schools.com', function() {
     return this.driver.get('https://www.w3schools.com/');
   });
@@ -43,5 +39,9 @@ defineSupportCode(function({Given, When, Then, setDefaultTimeout}) {
 
   Then('I should see the page to learn html', function () {
     return this.driver.get('https://www.w3schools.com/html/default.asp');
+  });
+
+  Then('I Should see the page to learn javascript', function () {
+    return this.driver.get('https://www.w3schools.com/js/default.asp');
   });
 });
