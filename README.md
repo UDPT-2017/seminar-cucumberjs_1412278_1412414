@@ -3,8 +3,8 @@
 **CucumberJs** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
 
 Thành viên:
-* [ ] **1412414** Vương Thiên Phú (1412414)
-* [ ] **1412278** Phan Khánh Lâm (lam0196vn)
+* [x] **1412414** Vương Thiên Phú (1412414)
+* [x] **1412278** Phan Khánh Lâm (lam0196vn)
 
 URL: **Link github page**
 
@@ -37,8 +37,8 @@ Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các
 
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
-* [ ] Chức năng 1
-* [ ] Chức năng 2
+* [x] Demo 1 [Demo1](../demo/hinh1.gif)
+* [x] Demo 2 [Demo2](../demo/hinh3.gif)
 
 ## Demo
 
