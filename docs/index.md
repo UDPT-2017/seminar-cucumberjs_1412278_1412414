@@ -1,5 +1,6 @@
+                          ## Tổng quan về CucumberJS ##
 
-# I.	Agile Software Development:
+#I.	Agile Software Development:
   -	Agile là phương pháp phát triển phần mềm linh hoạt. Trong phương pháp này ta sẽ:
       + Đề cao sự tương tác giữa các cá nhân với nhau hơn là các quy trình, các công cụ.
       + Phần mềm chạy được hơn là chứng minh bằng các tài liệu.
@@ -13,7 +14,7 @@
       + Thường xuyên giao các phần mềm chạy được cho khách hàng để khách hàng đánh giá.
       + Thường xuyên kiểm tra xuyên suốt dự án.
       + Sự hợp tác giữa các thành viên trong quá trình phát triển dự án là cần thiết.
-# II.	Test Driven Development (TDD):
+#II.	Test Driven Development (TDD):
   - TDD là một phương pháp phát triển phần mềm dựa trên phương pháp agile	tập trung vào việc kiểm thử phần mềm vì vậy mà các phần mềm được áp dụng phương pháp này thường ít có lỗi.
   -	Lập trình viên sử dụng phương pháp này sẽ thực hiện theo từng bước nhỏ:
 	   + Viết test cho 1 hàm nhưng đảm bảo cho nó thất bại.
@@ -23,13 +24,13 @@
 
   - Mô hình TDD:
     ![TDD](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh1.png 'mô hình TDD')
-# III.	Behavior driven develop (BDD):
+#III.	Behavior driven develop (BDD):
   - BDD là một phương pháp phát triển phần mềm được phát triển từ TDD.
   -	BDD sẽ dựa vào các yêu cầu của khách hàng để viết ra các kịch bản (Scenarios) để test, sau đó ta sẽ bắt đầu viết code để có thể pass các kịch bản này.
   -	Các kịch bản sẽ được viết bằng ngôn ngữ tự nhiên, dễ hiểu để có thể tăng tính cộng tác, giao tiếp trong nhóm phát triển phần mềm.
   -	Mô hình BDD:
     ![BDD](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh2.jpg 'mô hình BDD')
-# IV.	Gherkin
+#IV.	Gherkin
   1.	Định nghĩa:
       -	Gherkin là ngôn ngữ dễ hiểu, rõ ràng đối với cả những người không rành về lập trình, được viết dưới dạng văn bản thuần túy, được thiết kế để phản ánh các bước trong nghiệp vụ.
   2.	Các quy tắc cơ bản:
@@ -55,10 +56,10 @@
           Bên cạnh đó người dùng có thể dùng các phép and hoặc or với tag. \\
           Đối với phép OR thì cú pháp là : cucumber - - tags @A,@B. \\    
           Đối với phép And : cucumber - - tags @A - - tags @B \\
-# V. Cucumber:
+#V. Cucumber:
       -	Cucumber là một công cụ được dùng để kiểm tra tự động dựa trên việc thực hiện các chức năng, kiểm tra xem các chức năng này thành công hay thất bại so với các kịch bản, các bước trong kịch bản mà ta định sẵn và công cụ này hỗ trợ cho BDD.
       -	Ngôn ngữ được Cucumber sử dụng là ngôn ngữ Gherkin.
-# VI.	CucumberJS:
+#VI.	CucumberJS:
   1. Tổng quan
       -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản
       và các bước trong kịch bản được định nghĩa bằng JavaScript.
@@ -105,7 +106,7 @@
 # VII.	Continuous Intergration:
   1.	Tổng quan
     -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
-    -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
+    -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, … \\
   2.	Travis:  
     -	Là dịch vụ miễn phí mã nguồn mở, tích hợp với git hub. Hỗ trợ nhiều ngôn ngữ lập trình khác nhau.
     -	Hỗ trợ bulid và test , gửi feedback đến email.
