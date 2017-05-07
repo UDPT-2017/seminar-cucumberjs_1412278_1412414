@@ -70,7 +70,7 @@
           + npm install cucumber
           + npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1 (để sử dụng trong nodejs)
       -	Sau đó ta vào package.json thêm:
-          ![Cài đặt cucumber](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh5.png '')
+          ![Cài đặt cucumber](/hinh5.png '')
       -	Để test ta gõ lệnh: npm test
     3. **Ví dụ 1**
       -	Đầu tiên là ta tạo folder features
