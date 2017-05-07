@@ -1,3 +1,4 @@
+![](https://i.ytimg.com/vi/TusH5ICDUXw/mqdefault.jpg )
 # I.	Agile Software Development:
   -	Agile là phương pháp phát triển phần mềm linh hoạt. Trong phương pháp này ta sẽ:
       + Đề cao sự tương tác giữa các cá nhân với nhau hơn là các quy trình, các công cụ.
