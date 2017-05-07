@@ -21,13 +21,13 @@
 	   + Lặp lại bước đầu tiên. \\
 
   - Mô hình TDD:
-    ![TDD](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh1.png 'mô hình TDD')
+    ![TDD](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh1.png 'mô hình TDD')
 # III.	Behavior driven develop (BDD):
   - BDD là một phương pháp phát triển phần mềm được phát triển từ TDD.
   -	BDD sẽ dựa vào các yêu cầu của khách hàng để viết ra các kịch bản (Scenarios) để test, sau đó ta sẽ bắt đầu viết code để có thể pass các kịch bản này.
   -	Các kịch bản sẽ được viết bằng ngôn ngữ tự nhiên, dễ hiểu để có thể tăng tính cộng tác, giao tiếp trong nhóm phát triển phần mềm.
   -	Mô hình BDD:
-    ![BDD](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh2.png 'mô hình BDD')
+    ![BDD](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh2.jpg 'mô hình BDD')
 # IV.	Gherkin
   1.	Định nghĩa:
       -	Gherkin là ngôn ngữ dễ hiểu, rõ ràng đối với cả những người không rành về lập trình, được viết dưới dạng văn bản thuần túy, được thiết kế để phản ánh các bước trong nghiệp vụ.
@@ -36,7 +36,7 @@
   3.	Cú pháp: gồm feature scenario và step.
       -	Feature thường bao gồm các list Scenario.Băt đầu bằng từ khóa “Feature: ” Người sử dụng có thể ghi mô tả 1 cách tường minh tính năng bằng ngôn ngữ tự nhiên. Có thể dùng tag để nối các feature lại với nhau.
       -	Scenario bắt đầu với từ khóa “Scenario: ” + một tiêu đề tùy ý. Mỗi Scenario sẽ bao gồm nhiều step.
-      ![Gherkin](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh3.png '')
+      ![Gherkin](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh3.png '')
       -	Background cho phép chúng ta thêm ngữ cảnh cho tất cả các Scenarios trong cùng một file feature.
       -	Steps: Gồm 3 loại chính Given, When, Then
 	       + **Given**: mô tả bối cảnh ban đầu của hệ thống, cấu hình hệ thống ở 1 trạng thái rõ ràng : tạo, cập nhật dữ liệu test.
@@ -44,7 +44,7 @@
 	       + **Then**: Mô tả kết quả test mong muốn.
       -	Ngoài ra nếu có nhiều Given, When, Then thì có thể có thêm And, But(các từ khóa này giúp thay thế sự lặp lại when/then và giúp code nhìn mạch lạc hơn).
       \\
-      ![Gherkin](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh4.png '')
+      ![Gherkin](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh4.png '')
       -	Ngoài ra còn có các từ khóa :
         + Scenario Outline  & Example:
           - Scenario Outline : dùng để gom nhóm các kịch bản có chung steps nhưng nhiều input và output. Các steps trong Scenario Outline cung cấp template mẫu và không bao giờ được  chạy trực tiếp mà các Example sẽ nhận các biến input và chạy trên template này. Các biến được khai báo theo cú pháp “<tên biến>”.
@@ -70,37 +70,37 @@
           + npm install cucumber
           + npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1 (để sử dụng trong nodejs)
       -	Sau đó ta vào package.json thêm:
-          ![Cài đặt cucumber](/hinh5.png '')
+          ![Cài đặt cucumber](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh5.png '')
       -	Để test ta gõ lệnh: npm test
     3. **Ví dụ 1**
       -	Đầu tiên là ta tạo folder features
-          ![Ví dụ 1.1](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh6.png '')
+          ![Ví dụ 1.1](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh6.png '')
       -	Sau đó ta thêm file ViDu1.feature
-          ![Ví dụ 1.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh7.png '')
+          ![Ví dụ 1.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh7.png '')
       -	Tiếp theo ta thêm file world.js, trước hết chúng ta phải tạo folder support trong folder features rồi thêm file world.js vào folder support
-          ![Ví dụ 1.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh8.png '')
+          ![Ví dụ 1.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh8.png '')
       -	nội dung của file world.js:
-          ![Ví dụ 1.3](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh9.png '')
+          ![Ví dụ 1.3](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh9.png '')
       -	tiếp theo ta sẽ tạo folder step_definitions trong folder features, rồi thêm file hooks.js vào thư mục step_definitions
-          ![Ví dụ 1.4](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh10.png '')
+          ![Ví dụ 1.4](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh10.png '')
       -	nội dung của file hook.js:
-          ![Ví dụ 1.5](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh11.png '')
+          ![Ví dụ 1.5](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh11.png '')
       -	tiếp theo ta sẽ tới bước định nghĩa cho file ViDu1.feature, ta sẽ tạo file ViDu1.js trong thư mục step_definitions.
-            ![Ví dụ 1.6](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh12.png '')
-            ![Ví dụ 1.7](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh13.png '')
+            ![Ví dụ 1.6](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh12.png '')
+            ![Ví dụ 1.7](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh13.png '')
       -	setDefaultTimeOut để chỉnh sửa lại thời gian test như vậy sẽ không gây ra lỗi timeout.
       -	Kết quả:
-            ![Ví dụ 1.8](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh14.png '')
+            ![Ví dụ 1.8](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh14.png '')
       -	Bước 3 chạy sai là vì ta định nghĩa trong file feature là 5 + 2 = 8 nhưng khi test thì 5 + 2 lại bằng 7 nên mới báo lỗi
       -	Vì vậy chỉnh sửa lại trong file feature 5 + 2 = 7 và ta sẽ có kết quả đúng
-            ![Ví dụ 1.9](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh15.png '')
+            ![Ví dụ 1.9](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh15.png '')
     4.	**Ví dụ 2:**
       -	Cho scenario:
-            ![Ví dụ 2.1](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh16.png'')
+            ![Ví dụ 2.1](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh16.png'')
       -	Step definition:
-            ![Ví dụ 2.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh17.png '')
+            ![Ví dụ 2.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh17.png '')
       -	Kết quả:
-            ![Ví dụ 2.3](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/docs/hinh18.png '')
+            ![Ví dụ 2.3](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh18.png '')
 # VII.	Continuous Intergration:
       -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
       -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
