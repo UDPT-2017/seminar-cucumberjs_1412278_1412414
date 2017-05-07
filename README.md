@@ -6,7 +6,7 @@ Thành viên:
 * [x] **1412414** Vương Thiên Phú (1412414)
 * [x] **1412278** Phan Khánh Lâm (lam0196vn)
 
-URL: **Link github page**
+URL:  <https://udpt-2017.github.io/seminar-cucumberjs_1412278_1412414/>
 
 ## Yêu cầu
 
@@ -39,7 +39,7 @@ Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [x] Demo 1 [Demo1] <https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/demo/demo1.gif>
 * [x] Demo 2 [Demo2] <https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/demo/demo3.gif>
-
+* [x] Demo kiểm thử với Travis [Demo 3]<https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/blob/master/demo/demo4.gif>
 ## Demo
 
 Link ảnh GIF demo ứng dụng:
