@@ -58,12 +58,49 @@
       -	Cucumber là một công cụ được dùng để kiểm tra tự động dựa trên việc thực hiện các chức năng, kiểm tra xem các chức năng này thành công hay thất bại so với các kịch bản, các bước trong kịch bản mà ta định sẵn và công cụ này hỗ trợ cho BDD.
       -	Ngôn ngữ được Cucumber sử dụng là ngôn ngữ Gherkin.
 # VI.	CucumberJS:
-      -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản 
+  1. Tổng quan
+      -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản
       và các bước trong kịch bản được định nghĩa bằng JavaScript.
       -	CucumberJS sẽ thực thi file loại .feature và trong file này sẽ chứa các kịch bản,
       các bước được viết bằng Gherkin.
       -	Trong Gherkin sẽ có các từ khóa feature, scenario, steps: given, when, then, and, but; background, scenario outline, examples.
       -	Sau khi tạo file .feature ta sẽ đến bước định nghĩa các bước vì CucumberJS sẽ không hiểu cách để thực thi file .feature chứa các scenario, steps (vì chúng là văn bản thuần túy) vì vậy ta phải định nghĩa các bước (Step Definitions) để CucumberJS có thể hiểu và thực thi. Trong CucumberJS thì ta định nghĩa các bước bằng JavaScript.
+    2. Cài Đặt.
+      -	Để cài đặt ta chỉ cần sử dụng dòng lệnh:
+          + npm install cucumber
+          + npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1 (để sử dụng trong nodejs)
+      -	Sau đó ta vào package.json thêm:
+          ![Cài đặt cucumber](./hinh5.png '')
+      -	Để test ta gõ lệnh: npm test
+    3. **Ví dụ 1**
+      -	Đầu tiên là ta tạo folder features \\
+        ![Ví dụ 1.1](./hinh6.png '')
+      -	Sau đó ta thêm file ViDu1.feature \\
+          ![Ví dụ 1.2](./hinh7.png '')
+      -	Tiếp theo ta thêm file world.js, trước hết chúng ta phải tạo folder support trong folder features rồi thêm file world.js vào folder support \\
+          ![Ví dụ 1.2](./hinh8.png '')
+      -	nội dung của file world.js:
+          ![Ví dụ 1.3](./hinh9.png '')
+      -	tiếp theo ta sẽ tạo folder step_definitions trong folder features, rồi thêm file hooks.js vào thư mục step_definitions
+          ![Ví dụ 1.4](./hinh10.png '')
+      -	nội dung của file hook.js:
+          ![Ví dụ 1.5](./hinh11.png '')
+      -	tiếp theo ta sẽ tới bước định nghĩa cho file ViDu1.feature, ta sẽ tạo file ViDu1.js trong thư mục step_definitions.
+            ![Ví dụ 1.6](./hinh12.png '')
+            ![Ví dụ 1.7](./hinh13.png '')
+      -	setDefaultTimeOut để chỉnh sửa lại thời gian test như vậy sẽ không gây ra lỗi timeout.
+      -	Kết quả:
+            ![Ví dụ 1.8](./hinh14.png '')
+      -	Bước 3 chạy sai là vì ta định nghĩa trong file feature là 5 + 2 = 8 nhưng khi test thì 5 + 2 lại bằng 7 nên mới báo lỗi
+      -	Vì vậy chỉnh sửa lại trong file feature 5 + 2 = 7 và ta sẽ có kết quả đúng
+            ![Ví dụ 1.9](./hinh15.png '')
+    4.	**Ví dụ 2:**
+      -	Cho scenario:
+            ![Ví dụ 2.1](./hinh16.png '')
+      -	Step definition:
+            ![Ví dụ 2.2](./hinh18.png '')
+      -	Kết quả:
+            ![Ví dụ 2.3](./hinh17.png '')
 # VII.	Continuous Intergration:
       -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
       -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
