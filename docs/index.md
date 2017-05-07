@@ -58,12 +58,12 @@
       -	Cucumber là một công cụ được dùng để kiểm tra tự động dựa trên việc thực hiện các chức năng, kiểm tra xem các chức năng này thành công hay thất bại so với các kịch bản, các bước trong kịch bản mà ta định sẵn và công cụ này hỗ trợ cho BDD.
       -	Ngôn ngữ được Cucumber sử dụng là ngôn ngữ Gherkin.
 # VI.	CucumberJS:
-      -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản \\
+      -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản 
       và các bước trong kịch bản được định nghĩa bằng JavaScript.
-      -	CucumberJS sẽ thực thi file loại .feature và trong file này sẽ chứa các kịch bản, \\
+      -	CucumberJS sẽ thực thi file loại .feature và trong file này sẽ chứa các kịch bản,
       các bước được viết bằng Gherkin.
       -	Trong Gherkin sẽ có các từ khóa feature, scenario, steps: given, when, then, and, but; background, scenario outline, examples.
-      -	Sau khi tạo file .feature ta sẽ đến bước định nghĩa các bước vì CucumberJS sẽ không hiểu cách để thực thi file .feature chứa các scenario, steps (vì chúng là văn bản thuần túy) \\vì vậy ta phải định nghĩa các bước (Step Definitions) để CucumberJS có thể hiểu và thực thi. Trong CucumberJS thì ta định nghĩa các bước bằng JavaScript.
+      -	Sau khi tạo file .feature ta sẽ đến bước định nghĩa các bước vì CucumberJS sẽ không hiểu cách để thực thi file .feature chứa các scenario, steps (vì chúng là văn bản thuần túy) vì vậy ta phải định nghĩa các bước (Step Definitions) để CucumberJS có thể hiểu và thực thi. Trong CucumberJS thì ta định nghĩa các bước bằng JavaScript.
 # VII.	Continuous Intergration:
       -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
       -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
