@@ -1,10 +1,10 @@
-# Seminar-UDPT - *Tên đề tài*
+# Seminar-UDPT - *CucumberJs*
 
-**Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
+**CucumberJs** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412414** Vương Thiên Phú (1412414)
+* [ ] **1412278** Phan Khánh Lâm (lam0196vn)
 
 URL: **Link github page**
 
@@ -13,7 +13,7 @@ URL: **Link github page**
 Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm vào chức năng theo mẫu. Mục nào ko có MSSV là tính điểm theo nhóm. Cần sắp xếp các chức năng bên dưới theo thứ tự MSSV đã thực hiện.
 
 Yêu cầu **GIT**
-* [ ] Có sử dụng GIT.
+* [+] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
@@ -24,8 +24,11 @@ Yêu cầu **bắt buộc**
 * [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
-* [ ] Nội dung 1
-* [ ] Nội dung 2
+* [+] Tìm hiểu về CucumberJs
+* [+] Các cú pháp cơ bản về Gherkin
+* [+] Các bước thao tác với CucumberJs
+* [+] Tìm hiểu về Continous Integration Server : Travis
+* [+]
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [ ] Chức năng 1
