@@ -37,8 +37,8 @@ Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các
 
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
-* [x] Demo 1 [Demo1](../demo/hinh1.gif)
-* [x] Demo 2 [Demo2](../demo/hinh3.gif)
+* [x] Demo 1 [Demo1](../demo/demo1.gif)
+* [x] Demo 2 [Demo2](../demo/demo3.gif)
 
 ## Demo
 
