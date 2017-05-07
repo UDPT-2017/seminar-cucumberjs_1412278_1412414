@@ -28,7 +28,13 @@ Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các
 * [x] Các cú pháp cơ bản về Gherkin
 * [x] Các bước thao tác với CucumberJs
 * [x] Tìm hiểu về Continous Integration Server : Travis
+* [x] Agile Software Development
+* [x] Test Driven Development (TDD)
+* [x] Behavior driven develop (BDD)
+* [x] Acceptance Test, Unit Test, Integration Test
 * []
+* []
+
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [ ] Chức năng 1
