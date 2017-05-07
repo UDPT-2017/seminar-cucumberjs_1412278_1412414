@@ -36,13 +36,14 @@
   3.	Cú pháp: gồm feature scenario và step.
       -	Feature thường bao gồm các list Scenario.Băt đầu bằng từ khóa “Feature: ” Người sử dụng có thể ghi mô tả 1 cách tường minh tính năng bằng ngôn ngữ tự nhiên. Có thể dùng tag để nối các feature lại với nhau.
       -	Scenario bắt đầu với từ khóa “Scenario: ” + một tiêu đề tùy ý. Mỗi Scenario sẽ bao gồm nhiều step.
-        ![Gherkin](./hinh3.png '')
+      ![Gherkin](./hinh3.png '')
       -	Background cho phép chúng ta thêm ngữ cảnh cho tất cả các Scenarios trong cùng một file feature.
       -	Steps: Gồm 3 loại chính Given, When, Then
 	       + **Given**: mô tả bối cảnh ban đầu của hệ thống, cấu hình hệ thống ở 1 trạng thái rõ ràng : tạo, cập nhật dữ liệu test.
 	       + **When**: Mô tả hành động của người sử dụng.
 	       + **Then**: Mô tả kết quả test mong muốn.
       -	Ngoài ra nếu có nhiều Given, When, Then thì có thể có thêm And, But(các từ khóa này giúp thay thế sự lặp lại when/then và giúp code nhìn mạch lạc hơn).
+      \\
       ![Gherkin](./hinh4.png '')
       -	Ngoài ra còn có các từ khóa :
         + Scenario Outline  & Example:
@@ -57,10 +58,12 @@
       -	Cucumber là một công cụ được dùng để kiểm tra tự động dựa trên việc thực hiện các chức năng, kiểm tra xem các chức năng này thành công hay thất bại so với các kịch bản, các bước trong kịch bản mà ta định sẵn và công cụ này hỗ trợ cho BDD.
       -	Ngôn ngữ được Cucumber sử dụng là ngôn ngữ Gherkin.
 # VI.	CucumberJS:
-      -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản và các bước trong kịch bản được định nghĩa bằng JavaScript.
-      -	CucumberJS sẽ thực thi file loại .feature và trong file này sẽ chứa các kịch bản, các bước được viết bằng Gherkin.
+      -	CucumberJS là một phần của Cucumber và nó được dùng để kiểm tra các kịch bản \\
+      và các bước trong kịch bản được định nghĩa bằng JavaScript.
+      -	CucumberJS sẽ thực thi file loại .feature và trong file này sẽ chứa các kịch bản, \\
+      các bước được viết bằng Gherkin.
       -	Trong Gherkin sẽ có các từ khóa feature, scenario, steps: given, when, then, and, but; background, scenario outline, examples.
-      -	Sau khi tạo file .feature ta sẽ đến bước định nghĩa các bước vì CucumberJS sẽ không hiểu cách để thực thi file .feature chứa các scenario, steps (vì chúng là văn bản thuần túy) vì vậy ta phải định nghĩa các bước (Step Definitions) để CucumberJS có thể hiểu và thực thi. Trong CucumberJS thì ta định nghĩa các bước bằng JavaScript.
+      -	Sau khi tạo file .feature ta sẽ đến bước định nghĩa các bước vì CucumberJS sẽ không hiểu cách để thực thi file .feature chứa các scenario, steps (vì chúng là văn bản thuần túy) \\vì vậy ta phải định nghĩa các bước (Step Definitions) để CucumberJS có thể hiểu và thực thi. Trong CucumberJS thì ta định nghĩa các bước bằng JavaScript.
 # VII.	Continuous Intergration:
       -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
       -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
