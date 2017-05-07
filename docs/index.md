@@ -96,7 +96,7 @@
             ![Ví dụ 1.9](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh15.png '')
     4.	**Ví dụ 2:**
       -	Cho scenario:
-            ![Ví dụ 2.1](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh16.png'')
+            ![Ví dụ 2.1](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh16.png '')
       -	Step definition:
             ![Ví dụ 2.2](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh17.png '')
       -	Kết quả:
