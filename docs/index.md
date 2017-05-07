@@ -20,4 +20,4 @@
 	 + Sau đó thì tối ưu hóa code.
 	 + Lặp lại bước đầu tiên.
   - Mô hình TDD:
-    ![docs](../hinh1.png 'mô hình TDD')
+    ![docs](./hinh1.png 'mô hình TDD')
