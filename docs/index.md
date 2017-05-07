@@ -20,4 +20,10 @@
 	 + Sau đó thì tối ưu hóa code.
 	 + Lặp lại bước đầu tiên.
   - Mô hình TDD:
-    ![docs](./hinh1.png 'mô hình TDD')
+    ![TDD](./hinh1.png 'mô hình TDD')
+# III.	Behavior driven develop (BDD):
+  - BDD là một phương pháp phát triển phần mềm được phát triển từ TDD.
+  -	BDD sẽ dựa vào các yêu cầu của khách hàng để viết ra các kịch bản (Scenarios) để test, sau đó ta sẽ bắt đầu viết code để có thể pass các kịch bản này.
+  -	Các kịch bản sẽ được viết bằng ngôn ngữ tự nhiên, dễ hiểu để có thể tăng tính cộng tác, giao tiếp trong nhóm phát triển phần mềm.
+  -	Mô hình BDD:
+    ![BDD](./hinh2.png 'mô hình TDD')
