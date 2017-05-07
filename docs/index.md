@@ -103,8 +103,15 @@
       -	Kết quả:
             ![Ví dụ 2.3](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh18.png)
 # VII.	Continuous Intergration:
-      -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
-      -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
+  1.	Tổng quan
+    -	Continuous Intergration (CI) là một phương pháp phục vụ cho Align, nơi mà các lập trình viên trong một nhóm gửi code của mình lên và sau đó CI sẽ tự động được build để xác định các lỗi và ngay lập tức gửi lỗi để cho lập trình viên sửa lỗi như vậy sẽ giúp team giảm thiểu tối đa các lỗi khi tích hợp code với nhau và giúp xây dựng phần mềm nhanh hơn nhiều.
+    -	Có thể áp dụng CI thông qua các framework TFS, Codeship, TeamCity, Hudson, Circle, Jenkin, Travis, …
+  2.	Travis:  
+    -	Là dịch vụ miễn phí mã nguồn mở, tích hợp với git hub. Hỗ trợ nhiều ngôn ngữ lập trình khác nhau.
+    -	Hỗ trợ bulid và test , gửi feedback đến email.
+    -	Sơ lược cách hoạt động : khi có thành viên push code lên git hub, Travis sẽ tiến hành test bộ code đó ( thông qua các bộ test được quy định từ trước ) và gửi feedback về các thành viên còn lại => khi code có vấn đề sẽ dễ dàng xác định lỗi.
+    Mô hình hoạt động của Travis :
+      ![Travis](https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/raw/master/docs/hinh19.png)
 # VIII.	Acceptance Test, Unit Test, Integration Test:
       -	Unit test được viết bởi các lập trình viên để kiểm tra xem một đơn vị code hay một thành phần có hoạt động chính xác hay không.
       -	Integration Test được viết để kiểm tra các unit khi tích hợp lại với nhau thì có hoạt động đúng như mong muốn hay không.
